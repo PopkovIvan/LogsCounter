@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import com.smartbics.model.Log;
-import com.smartbics.model.LogLevel;
+import com.smartbics.model.*;
 
 public class LogCount {
 	private LogFileReader reader;
@@ -56,7 +55,7 @@ public class LogCount {
 			
 			logCountString.append(dateFormatFrom.format(date));
 			logCountString.append(dateFormatTo.format(new Date(date.getTime() + interval)));
-			logCountString.append(" Колличество " + LogLevel.toString(logLevelToCount) + ": " + count.toString() + '\n');
+			logCountString.append(" ГЉГ®Г«Г«ГЁГ·ГҐГ±ГІГўГ® " + LogLevel.toString(logLevelToCount) + ": " + count.toString() + '\n');
 			
 			fileWriter.write(logCountString.toString());
 			
