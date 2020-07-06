@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-import com.smartbics.model.Log;
+import com.smartbics.model.*;
 
 public class LogFileReader {
 
