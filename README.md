@@ -1,2 +1,2 @@
 # LogsCounter
-A program to count different log types on the givven interval
+A program to count different log types on the given interval
